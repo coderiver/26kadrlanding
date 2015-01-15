@@ -3,17 +3,206 @@
 <head>
 	<meta charset="utf-8">
 	<title>Template</title>
-	<meta name="viewport" content="initial-scale=1">
+	<!-- <meta name="viewport" content="initial-scale=1"> -->
 	<meta name="format-detection" content="telephone=no">
-	<!-- <meta name="viewport" content="width=1200"> -->
+	<meta name="viewport" content="width=940">
 	<!-- <meta name="viewport" content="initial-scale=1, user-scalable=no"> -->
 	<link rel="stylesheet" media="all" href="css/screen.css" >
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
 <body>
 <!-- BEGIN  out-->
 <div class="out">
-
+	<!-- BEGIN header -->
+	<header class="page-header">
+		<div class="l-center">
+			<div class="page-header__logo-page">
+				<img src="img/logo.png" alt="#">
+			</div>
+			<nav class="page-header__menu">
+				<ul>
+					<li><a href="#">Продукция</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="page-header__tools">
+				<div class="phone">
+					8 (926) 568-08-44
+				</div>
+				<div class="button">
+					<a href="#">Скачать прайс-лист</a>						
+				</div>		
+			</div>
+		</div>
+	</header>
+	<!-- END header -->
+	<!-- BEGIN promo -->
+	<div class="promo">
+		<div class="l-center">
+			<h1>Мы производим детское игровое и спортивное оборудование</h1>
+			<div class="promo__event">
+				<span>Акция!</span>
+				<p>Закажите МАФы прямо сейчас на сумму от 200 000 руб. и получите подарок прямо сейчас</p>					
+				<img src="img/promo_img.png" alt="#">
+			</div>
+			<div class="promo__share">
+				<p>Получите<br>доступ к оптовым<br>ценам + скидки</p>
+				<div class="button button_small">
+					<a href="#">Получить</a>						
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!-- END promo -->
+	<!-- BEGIN main -->
+	<main>
+		<div class="l-center">
+			<h2 class="main-title">Почему выбирают нас</h2>
+			<section class="your-choise">
+				<div class="your-choise__logo">
+					<img src="img/choise_logo.png" alt="">
+				</div>
+				<div class="your-choise__item item-1">
+					<div class="item-logo">
+						<img src="img/choise_1.png">
+					</div>
+					<div class="item-title">
+						<p>Гарантия качества</p>
+					</div>
+					<div class="item-text">
+						<p>Многоступенчатый контроль качества.<br>Продукция сертифицирована и соот-<br>ветствует всем требованиям ГОСТ. </p>
+					</div>
+				</div>
+				<div class="your-choise__item item-2">
+					<div class="item-logo">
+						<img src="img/choise_2.png">
+					</div>
+					<div class="item-title">
+						<p>Низкая цена закупки</p>
+					</div>
+					<div class="item-text">
+						<p>Большие объемы производства и соб-<br>ственное производство в Москве поз-<br>воляют нам удерживать минималь-<br>ные цены на нашу продукцию, не те-<br>ряя в качестве</p>
+					</div>
+				</div>
+				<div class="your-choise__item item-3">
+					<div class="item-logo">
+						<img src="img/choise_3.png">
+					</div>
+					<div class="item-title">
+						<p>Собственное производство</p>
+					</div>
+					<div class="item-text">
+						<p>Мы имеем собственное высокотехно-<br>логичное производство в Москве и <br>выпускаем продукцию в соответствии <br>с требованиями безопасности, что поз-<br>волит удовлетворить все Ваши потребно-<br>сти. В работе используем только лучшие<br>материалы.</p>
+					</div>
+				</div>
+				<div class="your-choise__item item-4">
+					<div class="item-logo">
+						<img src="img/choise_4.png">
+					</div>
+					<div class="item-title">
+						<p>Индивидуальный подход</p>
+					</div>
+					<div class="item-text">
+						<p>Исходя из заданных параметров мы под-<br>берем все необходимое оборудование,<br>разработаем проект и создадим нагляд-<br>ный макет.</p>
+					</div>
+				</div>
+				<div class="your-choise__item item-5">
+					<div class="item-logo">
+						<img src="img/choise_5.png">
+					</div>
+					<div class="item-title">
+						<p>Доставка и монтаж</p>
+					</div>
+					<div class="item-text">
+						<p>Мы избавим Вас от поиска транспортных<br>компаний и подрядчиков на установку<br>оборудования. Наши специалисты хорошо<br>знакомы со всеми особенностями обо-<br>рудования, и выполнят все работы быстро<br>и качественно.</p>
+					</div>
+				</div>
+			</section>
+			<h2 class="main-title">Продукция</h2>
+			<section class="products">
+				<div class="products__title">
+					<span>Серия "Стандарт":</span>
+					<p>Игровые комплексы, песочницы, горки, домики, тематические качели, балансиры, качалки, карусели, столы, скамейки, навесы</p>
+				</div>	
+				<div class="products__items">
+					<img src="img/standart_1.png" alt="#">
+					<img src="img/standart_2.png" alt="#">
+					<img src="img/standart_3.png" alt="#">
+					<img src="img/standart_4.png" alt="#">
+				</div>
+				<div class="products__button">
+					<div class="button">
+						<a href="#">Скачать прайс-лист</a>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__title">
+					<span>Серия "Зодчество":</span>
+					<p>Игровые комплексы, песочницы, домики, резные фигуры</p>
+				</div>	
+				<div class="products__items">
+					<img src="img/zod_1.png" alt="#">
+					<img src="img/zod_2.png" alt="#">
+					<img src="img/zod_3.png" alt="#">
+					<img src="img/zod_4.png" alt="#">
+				</div>
+				<div class="products__button">
+					<div class="button">
+						<a href="#">Скачать прайс-лист</a>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__title">
+					<span>Серия "Эксклюзив":</span>
+					<p></p>
+				</div>	
+				<div class="products__items">
+					<img src="img/exclusive_1.png" alt="#">
+					<img src="img/exclusive_2.png" alt="#">
+					<img src="img/exclusive_3.png" alt="#">
+					<img src="img/exclusive_4.png" alt="#">
+				</div>
+				<div class="products__button">
+					<div class="button">
+						<a href="#">Скачать прайс-лист</a>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__title">
+					<span>Детское спортивно-развивающее оборудование:</span>
+					<p>Спортивные комплексы, лабиринты, бум-бревна, турники, брусья, лесенки, ворота, баскетбольные щиты</p>
+				</div>	
+				<div class="products__items">
+					<img src="img/sport_1.png" alt="#">
+					<img src="img/sport_2.png" alt="#">
+					<img src="img/sport_3.png" alt="#">
+					<img src="img/sport_4.png" alt="#">
+				</div>
+				<div class="products__button">
+					<div class="button">
+						<a href="#">Скачать прайс-лист</a>
+					</div>
+				</div>
+			</section>
+			<h2 class="main-title">О нас</h2>
+			<section class="about">
+				<p><span>ГБПОУ «26КАДР»</span> – это более 1500 кв.м. производственных площадей, современный столярные, токарные, сварочные, отделочный и автомеханические мастерские, сочетание новейших и традиционных технологий, высококвалифицированный персонал. </p>
+				<p>Все работы по подготовке проекта, изготовлению и установке оборудования осуществляются сотрудниками и выпускниками <span>ГБПОУ «26КАДР»</span>, обладающими большим опытом в изготовлении и установке спортивного, игрового оборудования и малых архитектурных форм. Наши специалисты — это настоящие мастера своего дела. Их знания, умения и навыки подтверждены дипломами о профильном образовании и сертификатами о повышении квалификации.</p>
+				<a href="#"><img src="img/partners.png" alt="#"></a>
+			</section>
+			<h2 class="main-title">Контакты</h2>
+			<section class="contacts">
+				<p>ул. Трофимова, д.27, корпус 2, строение 2<br>Наши контакты: 8 (926) 568-08-44;<br>8 (925) 155-86-66; www.26kadr.ru</p>
+			</section>
+		</div>
+		<div id="map"></div>
+	</main>
+	<!-- END main -->
 </div>
 <!-- END out-->
 <!-- load scripts -->
