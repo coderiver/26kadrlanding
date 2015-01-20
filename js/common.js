@@ -17,3 +17,15 @@ head.ready(function() {
 
 	console.log($('body').html());
 });
+
+$('.js-popup-pricelist').click(function(event) {
+  $('.overlay').show();
+  $('.popup_pricelist').addClass('is-visible');
+  return false;
+ });
+
+$('.js-popup-opt').click(function(event) {
+  $('.overlay').show();
+  $('.popup_opt').addClass('is-visible');
+  return false;
+ });

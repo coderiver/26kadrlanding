@@ -115,19 +115,17 @@ body { min-width: 940px; }
 .overlay:before { content: ""; display: inline-block; width: 0; }
 
 .popup { position: relative; vertical-align: middle; margin: 0 auto; width: 320px; height: 395px; padding: 15px 10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; background: white; display: none; box-shadow: 0 0 19px 2px black; border: 10px solid #f9cf09; }
-.popup.is-open { display: inline-block; }
+.popup.is-visible { display: inline-block; }
 .popup h3 { margin: 5px; font-size: 30px; font-family: "Acrom Extra Bold", Arial, sans-serif; }
-.popup_price-list h3 { margin: 10px 5px 25px; }
+.popup_pricelist h3 { margin: 10px 5px 25px; }
 
 .form { text-align: left; }
 .form .btn { width: 180px; height: 40px; background: #f9cf09; color: white; font-size: 24px; font-family: "Calibri", Arial, sans-serif; }
-.form__row { margin-bottom: 25px; -webkit-border-radius: 5px; border-radius: 5px; }
+.form__row { margin-bottom: 20px; -webkit-border-radius: 5px; border-radius: 5px; }
 .form__bottom { text-align: center; }
-
-input { width: 100%; height: 30px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0 10px; font-family: "Calibri Light", Arial, sans-serif; font-size: 24px; color: black; border: 1px solid #d5d5d5; }
-input:focus { border-color: #cdcdcd; background: white; }
-
+.form input { width: 100%; height: 35px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0 10px; font-family: "Calibri Light", Arial, sans-serif; font-size: 24px; color: black; border: 1px solid #d5d5d5; }
 .form input[type="text"] { -webkit-border-radius: 5px; border-radius: 5px; }
+.form input:focus { border-color: #cdcdcd; background: white; }
 
 .slick-slider { position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
 

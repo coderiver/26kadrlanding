@@ -287,13 +287,13 @@ body
 	display: none
 	box-shadow: 0 0 19px 2px #000
 	border: 10px solid #f9cf09 
-	&.is-open
+	&.is-visible
 		display: inline-block
 	h3
 		margin: 5px
 		font-size: 30px
 		+acrom_extrabold 
-	&_price-list h3
+	&_pricelist h3
 		margin:  10px 5px 25px
 .form
 	text-align: left
@@ -305,23 +305,24 @@ body
 		font-size: 24px
 		+calibri	 
 	&__row
-		margin-bottom: 25px
+		margin-bottom: 20px
 		-webkit-border-radius: 5px
 		border-radius: 5px
 	&__bottom
 		text-align: center
-input
-	width: 100% 		  		 		 
-	height: 30px
-	+box
-	padding: 0 10px
-	+calibri_L
-	font-size: 24px
-	color: #000 
-	border: 1px solid #d5d5d5
-	&:focus
-		border-color: #cdcdcd
-		background: #fff
-.form input[type="text"]
-	-webkit-border-radius: 5px
-	border-radius: 5px
+	input
+		width: 100% 		  		 		 
+		height: 35px
+		+box
+		padding: 0 10px
+		+calibri_L
+		font-size: 24px
+		color: #000 
+		border: 1px solid #d5d5d5
+		&[type="text"]
+			-webkit-border-radius: 5px
+			border-radius: 5px
+		&:focus
+			border-color: #cdcdcd
+			background: #fff
+		
