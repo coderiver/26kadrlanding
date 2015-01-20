@@ -32,7 +32,7 @@
 					8 (926) 568-08-44
 				</div>
 				<div class="button">
-					<a href="#">Скачать прайс-лист</a>						
+					<a href="#">Скачать прайс-лист</a>
 				</div>		
 			</div>
 		</div>
@@ -215,7 +215,10 @@
 			<section class="about">
 				<p><span>ГБПОУ «26КАДР»</span> – это более 1500 кв.м. производственных площадей, современный столярные, токарные, сварочные, отделочный и автомеханические мастерские, сочетание новейших и традиционных технологий, высококвалифицированный персонал. </p>
 				<p>Все работы по подготовке проекта, изготовлению и установке оборудования осуществляются сотрудниками и выпускниками <span>ГБПОУ «26КАДР»</span>, обладающими большим опытом в изготовлении и установке спортивного, игрового оборудования и малых архитектурных форм. Наши специалисты — это настоящие мастера своего дела. Их знания, умения и навыки подтверждены дипломами о профильном образовании и сертификатами о повышении квалификации.</p>
-				<a href="#"><img src="img/partners.png" alt="#"></a>
+				<div class="about__partners">
+					<span>Мы работаем на портале поставщиков и <a href="#">zakupki.gov.ru</a></span>
+					<span><a href="#"><img src="img/partners.png" alt="#"></a></span>
+				</div>
 			</section>
 			<h2 class="main-title">Контакты</h2>
 			<section class="contacts">
@@ -227,6 +230,51 @@
 	<!-- END main -->
 </div>
 <!-- END out-->
+
+<!-- BEGIN popup -->
+<div class="overlay" style="display: none;">
+	<i></i>
+	<div class="popup popup_price-list">
+		<h3 class="h3">Скачать<br>прайс-лист</h3>
+		<div class="form">
+			<form>
+				<div class="form__row">
+					<input type="text" class="input" name="name" placeholder="Введите имя">
+				</div>
+				<div class="form__row">
+					<input type="text" class="input" name="phone" placeholder="Введите телефон">
+				</div>
+				<div class="form__row">
+					<input type="text" class="input" name="email" placeholder="Введите эл.почту">
+				</div>
+				<div class="form__bottom">
+					<button type="submit" class="btn">Скачать</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="popup popup_opt-price">
+		<h3 class="h3">Получите доступ к оптовым ценам + скидки</h3>
+		<div class="form">
+			<form>
+				<div class="form__row">
+					<input type="text" class="input" name="name" placeholder="Введите имя">
+				</div>
+				<div class="form__row">
+					<input type="text" class="input" name="phone" placeholder="Введите телефон">
+				</div>
+				<div class="form__row">
+					<input type="text" class="input" name="email" placeholder="Введите эл.почту">
+				</div>
+				<div class="form__bottom">
+					<button type="submit" class="btn">Получить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- END popup -->
+
 <!-- load scripts -->
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
 </body>
